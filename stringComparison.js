@@ -5,4 +5,6 @@ console.log('az' > 'axzzz'); //true, тк делается построчное 
 '10' > '05' //true
 
 '10' > 5 //true, тк строка, хранящее число, будет приведена к числу
-console.log(10 > 'x'); //NaN, тк 'x' не число
+console.log(10 > 'x'); //false, тк 'x' не число (NaN)
+10 > true; //true, тк true=1, false=0
+'1' > true; //false, 1 > 1
