@@ -11,19 +11,3 @@ fibo[i+1] + fibo[i]);
 };
 
  console.log(fibonacci(fibo));
-
- const fibonacciCount = function(fibo) {
-    let start = 0;
-    let end = 10;
-    let result = 0;
-    while (end !=1) {
-        start +=1;
-        fibo.push(fibonacciCount(start));
-        
-        end -= 1;
-    }
-    return fibo;
-
- };
-
- console.log(fibonacciCount(fibo));
