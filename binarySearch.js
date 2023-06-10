@@ -6,11 +6,13 @@ const binarySearch = function(binary, number) {
 
     let start = 0;
     let end = binary.length-1;
-    for (let i = start; i <= end; i++) {
+    let count = 0;
+    for (let i = start; start <= end; i++) {
 
         let avg = Math.floor((start + end) / 2);
-        let guess = binary[i];
-
+        let guess = binary[avg];
+        count += 1;
+        console.log(`count: ${count}`);
         if (number === guess) { 
             return guess;
         }
@@ -25,4 +27,4 @@ const binarySearch = function(binary, number) {
             
 };
 
-console.log(binarySearch(binary, 1));
+console.log(binarySearch(binary, 9));
