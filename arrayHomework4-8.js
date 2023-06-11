@@ -1,3 +1,4 @@
+//генератор массива от n до m (или m до n) длиной count значений
 let array = [];
 
 const arrayGenerator = function(n,m,count) {
