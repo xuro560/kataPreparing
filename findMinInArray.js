@@ -14,6 +14,6 @@ const findMinInArray = function (array) {
 
 };
 
-array = [1,5,8,-1,9,2,-50];
+array = [-50,1,5,8,-1,9,2,-49];
 
 console.log(findMinInArray(array));
