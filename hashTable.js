@@ -1,14 +1,4 @@
-let str = 'Привет, мир!';
-
-str = str.split('');
-console.log(str);
-
-str = str.reverse();
-console.log(str);
-str = str.join('');
-console.log(str);
-
-
+//хэшируем (преобразуем символы в коды и складываем их суммы)
 
 const hash = string => {
     let result = 0;

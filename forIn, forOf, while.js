@@ -15,6 +15,11 @@ for(let element of rating) {
 
 }
 
+let str = 'efsefe';
+for (let s of str) {
+    console.log(`буква: ${s} в строке: ${str}`);
+}
+
 let tea = 20;
 
 while (tea > 0) {
