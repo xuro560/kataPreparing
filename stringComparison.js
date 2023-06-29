@@ -8,3 +8,6 @@ console.log('az' > 'axzzz'); //true, тк делается построчное 
 console.log(10 > 'x'); //false, тк 'x' не число (NaN)
 10 > true; //true, тк true=1, false=0
 '1' > true; //false, 1 > 1
+
+console.log(3 != '3'); //сравнивает ТОЛЬКО равенство
+console.log(3 !== '3'); //сравнивает равенство И тип данных
